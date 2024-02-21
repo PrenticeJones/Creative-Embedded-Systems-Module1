@@ -26,12 +26,12 @@ Follow these steps to set up your environment:
 1. Assemble the hardware: Connect the ESP32 TTGO T-display to the battery.
 2. Configure the TFT_eSPI library according to your display driver.
 3. Modify the pin definitions in the code if they differ from your hardware configuration.
-
-Learn More At My Blog Here:
-https://creative-embedded-systems-module1.glitch.me/
-5. Adjust the `DISPLAY_TIME_MS` and `SLEEP_TIME_US` constants in the code to change the display and sleep durations as needed.
+4. Adjust the `DISPLAY_TIME_MS` and `SLEEP_TIME_US` constants in the code to change the display and sleep durations as needed.
 
 Notes
 - The generateRandomColor() function produces a random color for the text display.
 - The drawHeart() function creates a heart shape on the screen using geometric shapes.
 - The goToDeepSleep() function puts the ESP32 into deep sleep mode to save battery life.
+
+Learn More At My Blog Here:
+https://creative-embedded-systems-module1.glitch.me/
